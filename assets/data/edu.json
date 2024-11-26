@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Compulsory School",
+    "workspace": "Björkhagens skola",
+    "location": "Stockholm, Sweden",
+    "duration": "2008-08 - 2018-06",
+    "employment_type": "Full-time"
+  },
+  {
+    "title": "Upper Secondary School",
+    "workspace": "Lunagymnasiet",
+    "location": "Stockholm, Sweden",
+    "duration": "2019-08 - 2023-06",
+    "employment_type": "Full-time"
+  },
+  {
+    "title": "Vocational Studies",
+    "workspace": "Chas Academy",
+    "location": "Stockholm, Sweden",
+    "duration": "2024-09 - 2026-06",
+    "employment_type": "Full-time"
+  }
+]
