@@ -1,0 +1,263 @@
+@import url(base.css);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.container-width {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+/* Nav styling */
+.nav-list-item {
+  list-style: none;
+}
+
+.nav-img {
+  display: flex;
+  padding: 1rem;
+}
+
+.socials-icons {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  padding-top: 2rem;
+}
+
+/* footer styling */
+.footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* styling for all pages */
+.page-section {
+  padding: 1rem;
+}
+
+.h1-page {
+  font-size: 1.5rem;
+}
+
+/* home page styling */
+.profile-photo {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.home-main {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-h1 {
+  padding-bottom: 2rem;
+}
+
+/* about page styling */
+.h1-about {
+  padding-bottom: 1.5rem;
+}
+
+#work-experience, #education, .edu-article {
+  padding: 1rem;
+}
+
+.edu-article {
+  border-bottom: 1px solid var(--colorgrey);
+}
+
+.work-ex-article {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-bottom: 1px solid var(--colorgrey);
+}
+
+.office, .location, .calendar {
+  display: flex;
+}
+
+.work, .edu-title, .loc-cal, .off-cal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workload {
+  background-color: var(--colorgreen);
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+.icon {
+  padding-right: 0.4rem;
+}
+
+/* projects page styling */
+.h1-projects, .p-projects {
+  padding-bottom: 1.5rem;
+}
+
+#cards-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  width: 500px;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding-bottom: 1rem;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.img-card {
+  width: 500px;
+}
+
+.h3-projects {
+  padding: 1rem 0;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.link-underline {
+  text-decoration: underline;
+}
+
+.card-github-icon {
+  width: 15px;
+}
+
+.link-icon {
+  display: inline;
+}
+
+/* gradient text all pages */
+.name {
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(33,89,180,1) 49%, rgba(132,18,176,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-name {
+  background: rgb(38,33,180);
+  background: linear-gradient(90deg, rgba(38,33,180,1) 0%, rgba(113,57,235,1) 49%, rgba(153,18,176,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-text {
+  background: rgb(151,33,180);
+  background: linear-gradient(90deg, rgba(151,33,180,1) 0%, rgba(206,57,235,1) 49%, rgba(176,18,127,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.email-address {
+  background: rgb(33,63,180);
+  background: linear-gradient(90deg, rgba(33,63,180,1) 0%, rgba(149,57,235,1) 49%, rgba(176,18,167,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media(min-width: 600px) {
+  /* home page styling */
+  .ham-menu span {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  nav a {
+    color: var(--colorblack);
+    text-decoration: none;
+  }
+  nav a:visited {
+    color: var(--colorblack);
+  }
+
+  nav a:hover {
+    color: var(--colorblue);
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    gap: 3rem;
+  }
+
+  .nav-list-item {
+    list-style: none;
+    font-weight: 500;
+    padding: 0.2rem;
+  } 
+
+  .socials-icons {
+    gap: 2rem;
+    padding: 0 0 0 1rem;
+  }
+
+
+  .home-main {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10rem;
+  }
+  
+  .main-h1 {
+    font-size: 3rem;
+  }
+
+  /* about page styling */
+  .about-main {
+    padding-bottom: 5rem;
+  }
+
+  .container-narrow {
+    max-width: 52rem;
+  }
+
+  /* projects page styling */
+  #cards-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card, .img-card {
+    width: 400px;
+  }
+}
