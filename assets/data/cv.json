@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Library Assistant",
+    "workspace": "IEGS",
+    "location": "Stockholm, Sweden",
+    "duration": "2018-05 - 2018-08",
+    "employment_type": "Part-time"
+  },
+  {
+    "title": "Study buddy",
+    "workspace": "At home",
+    "location": "Stockholm, Sweden",
+    "duration": "2020-08 - 2023-06",
+    "employment_type": "Part-time"
+  },
+  {
+    "title": "Bookshop Intern",
+    "workspace": "The English Bookshop",
+    "location": "Stockholm, Sweden",
+    "duration": "2024-03 - 2024-06",
+    "employment_type": "Internship"
+  }
+]

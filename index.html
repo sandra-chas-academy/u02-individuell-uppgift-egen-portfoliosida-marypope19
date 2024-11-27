@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="./assets/js/menu.js" defer></script>
+  <script src="./assets/js/slideshow.js" defer></script>
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <title>Developer Portfolio Design</title>
+</head>
+
+<body>
+  <header class="container-width">
+    <nav class="nav">
+      <div class="nav-img">
+        <h2 class="name">MARY</h2>
+      </div>
+
+      <div class="desktop-menu">
+        <ul class="nav-list">
+          <li class="home nav-list-item">Home</li>
+          <li class="about nav-list-item"><a href="./about.html">About</a></li>
+          <li class="projects nav-list-item"><a href="./projects.html">Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="off-screen-menu">
+        <ul>
+          <li class="home nav-list-item">Home</li>
+          <li class="about nav-list-item"><a href="./about.html">About</a></li>
+          <li class="projects nav-list-item"><a href="./projects.html">Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="socials-icons">
+        <a href="https://github.com/marypope19">
+          <img src="./assets/img/icons/nav-icons/github.svg" class="github-icon" alt="Github icon">
+        </a>
+        <a href="https://www.linkedin.com/in/mary-pope-44902a327/">
+          <img src="./assets/img/icons/nav-icons/linkedin.svg" class="linkedin-icon" alt="Linkedin icon">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-width">
+    <div class="home-main">
+      <h1 class="main-h1">Hi &#128075;, <br> My name is <br> <span class="name">Mary Pope</span><br> I build things
+        for web</h1>
+      <img src="./assets/img/profile.jpg" class="profile-photo" alt="Profile photo">
+    </div>
+
+    <div class="slideshow-container">
+      <h2>My projects: </h2>
+      <div class="slides fade">
+        <div class="number">1 / 3</div>
+        <img src="./assets/img/projects/todolist.png" alt="To do list project">
+        <p class="text">Make a to do list <a href="projects.html">Click for details</a></p>
+      </div>
+
+      <div class="slides fade">
+        <div class="number">2 / 3</div>
+        <img src="./assets/img/projects/quizapp.png" alt="Quiz app project">
+        <p class="text">A quiz app <a href="projects.html">Click for details</a></p>
+      </div>
+
+      <div class="slides fade">
+        <div class="number">3 / 3</div>
+        <img src="./assets/img/projects/filmpage.png" alt="Film page project">
+        <p class="text">A simple film page <a href="projects.html">Click for details</a></p>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </main>
+
+  <footer class="footer container-width">
+    <p>Designed and built by <span class="footer-name">Mary Pope</span> with <span class="footer-text">Love &
+        Tea</span></p>
+  </footer>
+</body>
+</html>
