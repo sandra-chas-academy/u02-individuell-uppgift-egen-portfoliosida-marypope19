@@ -54,7 +54,9 @@ nav a:hover {
   text-align: center;
   font-size: 3rem;
   transition: .3s ease;
+  z-index: 1;
 }
+
 .off-screen-menu.active {
   right: 0;
 }
@@ -66,6 +68,7 @@ nav a:hover {
   width: 40px;
   margin-left: auto;
   position: relative;
+  z-index: 1;
 }
 
 .ham-menu span {
@@ -149,6 +152,94 @@ nav a:hover {
 
 .main-h1 {
   padding-bottom: 2rem;
+}
+
+/* slideshow */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  padding: 1rem;
+}
+
+.slideshow-container img {
+  width: 100%;
+}
+
+.slides {
+  display: none;
+}
+
+.dots {
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 1rem;
+  color: var(--colorblack);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: var(--colorblack);
+  font-size: 1rem;
+  padding: 0.5rem 12px;
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.number {
+  color: var(--colorblack);
+  font-size: 12px;
+  padding: 0.5rem 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: var(--colorgrey);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: var(--colordarkGrey);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 /* about page styling */
@@ -270,7 +361,7 @@ nav a:hover {
 }
 
 @media(min-width: 600px) {
-  /* home page styling */
+  /* nav styling */
   .ham-menu span {
     display: none;
   }
@@ -316,7 +407,7 @@ nav a:hover {
     padding: 0 0 0 1rem;
   }
 
-
+  /* home page styling */
   .home-main {
     flex-direction: row;
     justify-content: space-between;
@@ -325,6 +416,16 @@ nav a:hover {
   
   .main-h1 {
     font-size: 3rem;
+  }
+
+  /* slideshow styling */
+  .slideshow-container {
+    max-width: 800px;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
   }
 
   /* about page styling */
@@ -347,7 +448,7 @@ nav a:hover {
   }
 }
 
-/* Mobile only */ 
+/* Mobile only */
 @media(max-width: 599px) {
   nav {
     display: flex;
