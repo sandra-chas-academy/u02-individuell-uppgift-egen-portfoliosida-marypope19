@@ -1,76 +1,15 @@
-# Instruktioner
 
-Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
+# u02 Mary Pope
 
-## Vad du ska göra
+## [Live preview](https://fjs24-u02-marypope.netlify.app)
 
-Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
+### Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
+* Jag valde att jobba vidare på u01 uppgiften. Så mycket av sakerna är likadana, exempelvis mina brytpunkter som är 600px och 1600px. Jag tog bort sidorna vi inte behövde längre. Sedan skapade jag två JSON filer, en för mina arbetslivserfarenheter och en för mina utbildningar. Det blev bara tre poster på varje då jag inte hunnit jobba eller studera mer än så. De två interaktiva JavaScript är hamburgarmenyn som finns i mobilt läge och en slideshow som finns på index/startsidan. Jag visste att menyn skulle göras om med JavaScript men funderade mycket och länge på vad det andra skulle vara. Valde mellan en modal och en slideshow, vilket det blev till slut. Jag tycker menyn funkar bra. Det blev lite krångel kring att få den att hamna på rätt ställe men jag löste det och la in en mediaquery som enbart är för mobilen. Slideshowen är jag inte lika nöjd med. Den fungerar och ser ganska bra ut, men den känns lite krystad, som att jag la dit den bara för att jag behövde, vilket är sant. Jag tror dock det var den bästa lösningen av de idéer jag hade. På bilden av quiz appen i slideshowen syns inte beskrivningen av bilden så väl. Det hade jag kunnat ändra genom att ta en annan bild av quiz appen. Jag skulle nog säga att det är innehållet på hemsidan som jag inte är så nöjd med. Men rent tekniskt och funktionaliteten fungerar rätt bra tycker jag. Sedan finns det mindre detaljer som jag kan förbättra, som bilden av quiz appen och hur texten ”My projects” i slideshowen kunde vara placerad bättre. När jag gjort slideshowen hamnade den på menyn när man fällde ut den i stället för under men det löste jag med z-index. Jag hade lite svårt i början med hur man ska implementera JavaScript i ett projekt med HTML och CSS (i stället för att från början ha med JavaScript), exempelvis hur mycket ska man ändra eller ta bort. Till exempel så är mycket av HTML koden nu i JavaScript filerna med innerHTML i stället. Jag tror min filstruktur hade kunnat vara bättre också. På ett sätt är det bra att det är uppdelat för det blir tydligare. Men en förbättring är att slå ihop arbetserfarenheter och utbildningar i en JSON fil. Jag tycker jag har lärt mig väldigt mycket när jag jobbat med den här uppgiften, speciellt när det gäller att felsöka. Har flera gånger råkat ut för att något inte fungerar och så visar det sig att jag ändrat något till exempel från klass till id och det är fel selektor så CSS slutar fungera eller att jag glömt anropa funktionen så att den faktiskt körs eller att jag glömt länka JavaScript filen i HTML filen. Det har varit givande att själv kunna lösa de här problemen och se resultatet direkt. Jag tog bort dark mode, som hade kunnat vara en interaktiv JavaScript men ville prova något nytt, en slideshow. 
 
-### CV i en fil:
-Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
-
-
-### Interaktiva scripts:
-Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
-
-### Portfolio:
- Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
-
-### 👉  VG-krav
-
-Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
-
-Du får gärna ha både dessa projekt och andra som genereras utifrån JSON-data om du känner för det, eller så ersätter du projekten så det bara är dina Github-projekt. Eventuellt kan du behöva komplettera datan från Github API med t.ex bilder ifrån JSON-datan.
-
-När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
-
-
-
-### Tekniska krav:
-* Validerad med 0 fel på https://validator.w3.org
-* Inga errors i Console
-
-### Sammantfattning av projekt + teoretiska frågor
-
-1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
-2. Du svarar på dessa frågor (max 800 ord):
-
-Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
-
-
-## Kriterier för bedömning
-
-
-Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
-
-### Godkänd (G)
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
-Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
-Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
-
-
-### Väl Godkänd (VG)
-
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
-Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
-Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt märks eller påverkar slutresultatet
-
-
-### Börja uppgift / Din inlämning
-* Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
-* Återkoppling ges i Canvas
-
-
-
-
-
-
-
-
-
-
-
-# 
+### Du svarar på dessa frågor (max 800 ord):
+#### Vad kan man utveckla m.h.a av Javascript inom frontend?
+* Javascript används för att göra webbsidor interaktiva och dynamiska. Med Javascript kan man skapa interaktiva element som exempelvis knappar, modaler och formulär. Formulären kan man med Javascript validera och skicka datan från formuläret med. Man kan även hantera användarens input, t ex click. Man kan göra dynamiska innehållsuppdateringar, alltså uppdatera innehållet på en sida utan att behöva ladda om sidan. Det görs med Fetch API. 
+#### Vad är JSON och hur används det inom frontend?
+* JSON står för JavaScript Object Notation och är ett dataformat som används för att lagra och överföra data. JSON används ofta när data skickas från en server till en webbsida. JSON är ett textbaserat format där man använder arrayer och objekt. Det är mycket enklare att läsa för människor än t ex XML och även datorer kan lätt bearbeta det. Därför används det ofta i API:er. JSON data består av en nyckel och ett värde. Inom frontend används JSON när man hämtar data från en server och ska visa datan i användargränssnittet. När man gör HTTP-förfrågningar från en server svarar servern ofta med JSON data, som är dynamisk. När man har hämtat datan kan den användas för att uppdatera webbgränssnittet. Ett exempel är att en JavaScript applikation kan använda JSON för att göra en dynamisk lista. Det finns många moderna webbtjänster som använder sig av REST API som skickar och tar emot data i JSON format, därför är det viktigt att kunna som frontendutvecklare. Man använder funktionerna JSON.parse() för att omvandla JSON till JavaScript objekt och JSON.stringify() för att omvandla JavaScript objekt till JSON. 
+#### Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+* HTTP står för Hypertext Transfer Protocol och det används för att överföra data mellan en webbläsare och en webbserver. När man laddar om en sida eller skickar en förfrågan till en server görs det genom HTTP protokollet. Det är därför det är viktigt att kunna som frontendutvecklare, alltså för att det styr användarens kommunikation i webbläsaren med servern. Det finns olika metoder som HTTP använder (exempelvis GET, POST, DELETE) och det är de som används för att utföra operationer på resurser på en server. Om man som frontendutvecklare förstår dessa metoder kan man skicka rätt typ av förfrågan beroende på den operation man behöver. HTTP responsen innehåller en statuskod som berättar om förfrågan lyckats eller misslyckats. Det är viktigt som frontendutvecklare att kunna dessa statuskoder (200 betyder OK, 404 betyder Not found), för att sedan kunna felsöka och förstå svaret från servern. Som jag nämnde på frågan om JSON så är det bra att kunna HTTP också, då man ofta som frontendutvecklare jobbar med att hämta data från API:er där man får datan i JSON format genom HTTP förfrågningar som man sedan måste förstå till exempel statuskoderna på. 

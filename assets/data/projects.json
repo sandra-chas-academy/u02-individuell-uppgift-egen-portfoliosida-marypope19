@@ -1,0 +1,26 @@
+[
+  {
+    "img": "./assets/img/projects/quizapp.png",
+    "title": "Quiz app",
+    "description": "A quiz app that tests your knowledge and encourages learning in a fun way",
+    "tech_stack": "HTML, CSS and JavaScript",
+    "code_link": "https://github.com/chas-team-5/u03-quiz-app",
+    "live_preview_link": "https://chas-team-5.github.io/u03-quiz-app/"
+  },
+  {
+    "img": "./assets/img/projects/todolist.png",
+    "title": "To do list",
+    "description": "A simple to do list where you can add, complete and delete tasks",
+    "tech_stack": "HTML, CSS and JavaScript",
+    "code_link": "https://github.com/marypope19/workshop-simple-todolist",
+    "live_preview_link": "https://marypope19.github.io/workshop-simple-todolist/"
+  },
+  {
+    "img": "./assets/img/projects/filmpage.png",
+    "title": "Film page",
+    "description": "A simple page for getting information about films",
+    "tech_stack": "HTML and CSS",
+    "code_link": "https://github.com/marypope19/filmpage",
+    "live_preview_link": "https://marypope19.github.io/filmpage/"
+  }
+]
